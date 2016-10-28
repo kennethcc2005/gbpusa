@@ -85,7 +85,7 @@ h5 {font-size: 14px; line-height: 21px; font-weight: 600; text-transform: upperc
 	right: -11px; 
 	border-right: 1px solid #7b6757;
 }
-.bord-5 {border-top: 8px solid #f4be18;	-moz-box-sizing: border-box;box-sizing: border-box; margin: 0 40px 0 0;}
+.bord-5 {border-top: 8px solid #f4be18;	-moz-box-sizing: border-box;box-sizing: border-box; margin: 0 20px 0 0;}
 
 .paragraph {margin-right: 40px;}
 @media only screen and (max-width: 767px){
@@ -505,7 +505,7 @@ p + h2 { padding-top: 41px;}
 	.block-1 .text-1 { width: 100%;}
 	.block-1 .text-1, .block-1 .c2 {float: none; text-align: center; margin:  10px auto 0px;}
 	.block-1 .c2.c-color-1 + .text-1, .block-1 .c2.c-color-1 { margin: 10px auto 0px;}
-	
+	.soc_icons {margin-left: -5px;}
 }
 
 @media only screen and (max-width: 479px) {
@@ -516,8 +516,27 @@ p + h2 { padding-top: 41px;}
 	.list-serv, .menu_services .list-serv:first-child {width: 100%;}
 	.gallery {margin: -15px 0 0!important;}
 	.g1 {width: 100%; margin-left: 0; margin-bottom: 20px;}
+	.box_inner {width: 85%;}
 
 }
 @media only screen and (max-width: 320px) {
 	
 }
+
+.item {
+    transition: display 1500ms linear 0s;
+    overflow:hidden;
+}
+.item.active {
+}
+.item.active img {
+    transition: transform 5000ms linear 0s;
+    /* This should be based on your carousel setting. For bs, it should be 5second*/
+    transform: scale(1.05, 1.05);
+}
+
+.carousel {
+	width: 90%;
+	margin: 0 5%;
+}
+

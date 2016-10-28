@@ -164,8 +164,9 @@ nav {
 	    outline: none;
 	    padding: 5px;
 		font-weight: normal;
-		margin-bottom: 0px;
-		margin-top: 40px;
+		position: relative;
+		top: 60px;
+		left: 25px;
 	}
 	nav select option:first-child {
 		color:#ffffff;
@@ -175,5 +176,10 @@ nav {
 }
 
 @media only screen and (max-width: 479px) {
+	nav select {
+		width:80%;
+		position: relative;
+		left: 0;
+	}
 
 }

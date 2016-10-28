@@ -77,7 +77,7 @@
 	.container_16 .prefix_14 		{padding-left:840px;}
 	.container_16 .prefix_15 		{padding-left:900px;}
 	/* Suffix Extra Space >> 16 Columns */
-	.container_16 .suffix_1 		{padding-right:60px;}
+	.container_16 .suffix_1 		{padding-left: 25px;}
 	.container_16 .suffix_2 		{padding-right:120px;}
 	.container_16 .suffix_3 		{padding-right:180px;}
 	.container_16 .suffix_4 		{padding-right:240px;}
@@ -175,9 +175,9 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
-        .container_16 { width: auto !important; margin: 0 65px;}
+        .container_16 { width: auto !important; margin: 0 40px;}
         .columns, .column { margin: 0; }
-
+        .grid_16 {width: 120% !important;}
         .container_16 .grid_1,
         .container_16 .grid_2,
         .container_16 .grid_3,
@@ -308,6 +308,13 @@
 		.container_16 .suffix_15{padding-right:0;}
     }
 
+    @media only screen and (max-width: 479px) {
+        .container_16 .suffix_1 { 
+            padding-left: 0;
+            width: 100% !important;
+            margin: 0 auto;
+        }
+    }
 
 /* #Clearing
 ================================================== */
