@@ -17,8 +17,8 @@ html, body {
 }
 body {padding-bottom: 30px;}
 * {	-webkit-text-size-adjust: none;}
-
-.bg-1 {background: url(../images/bg-2.png) center top no-repeat;}
+.bg-1 {background: url(../images/top-bg.gif) center top repeat-x;
+		background-color: #ffeebc;}
 .bg-2 { background: url(../images/bg-6.gif) 0 0 repeat; color: #c5b3a6;}
 .bg-3 { background: url(../images/bg-7.gif) 0 0 repeat; margin-top: 36px; padding: 0 40px 60px;}
 .bg-4 {  background: url(../images/bg-8.gif) 0 0 repeat;}
@@ -65,7 +65,7 @@ h5 {font-size: 14px; line-height: 21px; font-weight: 600; text-transform: upperc
 .color-2 { color: #ffffff;}
 .color-3 { color: #a2c427;}
 .color-4 { color: #f3bd18;}
-.color-5 { color: #fb8a13;}
+.color-5 { color: #72594b;}
 .color-6 { color: #ffd555;}
 .color-7 { color: #736963;}
 .color-8 { color: #755c4d;}
@@ -183,13 +183,13 @@ h1 { float: left; margin-top: 43px;}
 		-ms-box-sizing: border-box;
 		-o-box-sizing: border-box;
 		box-sizing: border-box;
+		background-color: rgba(255,255,255,0.8); 
 		padding-top: 88px;
 		top: -3px;
 		bottom: -3px;
 		width: 32%;
 		margin-left: -1px;
 		color: #ffffff;
-		background: #ff5d0b url(../images/bg-4.png) right bottom no-repeat;
 		z-index: 100;
 		position: absolute;
 		font-family: 'Open Sans', sans-serif;
