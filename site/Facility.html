@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/superfish.css">
     <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
     <link href='//fonts.googleapis.com/css?family=Cabin:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
@@ -29,30 +31,30 @@
    
 
 <script type="text/javascript" src="documentation/demos/js/uCarousel.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="documentation/demos/js/tms-0.4.1.js" ></script>
 <link rel="stylesheet" href="documentation/demos/css/style.css" type="text/css" media="all">
 <link rel="stylesheet" href="documentation/demos/demo.css" type="text/css" media="all">
 
 <script type="text/javascript">
   	jQuery(document).ready(function(){
-		
-			jQuery('.gallery')._TMS({
-			show:0,
-			pauseOnHover:true,
-			prevBu:'.prev',
-			nextBu:'.next',
-			playBu:'.play',
-			duration:6500,
-			preset:'zoomer',
-			pagination:$('.img-pags').uCarousel({show:10,shift:0}),
-			pagNums:false,
-			slideshow:7000,
-			numStatus:true,
-			banners:'fromRight',// fromLeft, fromRight, fromTop, fromBottom
-			waitBannerAnimation:false,
-			progressBar:'<div class="progbar"></div>'
-			})	
-			});
+		$("#owl-demo").owlCarousel({
+ 
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true,
+            autoPlay:true
+            // "singleItem:true" is a shortcut for:
+            // items : 1, 
+            // itemsDesktop : false,
+            // itemsDesktopSmall : false,
+            // itemsTablet: false,
+            // itemsMobile : false
+ 
+        });
+ 
+	});
 </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -122,129 +124,30 @@
 
 <!--=======content================================-->
 <section class="content">
-    <div class="container_16">
-         <div class="row">
-       
-       
-       
-       
-       
-       
-       
-      
-       
-       
-       
-       
-       
-       
-       
+    
        <div class="aligncenter">
           <h2>Our Facility</h2>
-           <!-- slider 
-    <div id="slide">			  	
-							
-							<div class="gallery">
-								<ul class="items">
-									<li><img src="GBP images/_MG_0793副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0808副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0828副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0839副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0867副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0869副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0870副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0874副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0876副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0879副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0892副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_6621副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_6627副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
+           
+       
+        <div id="owl-demo" class="owl-carousel owl-theme">
+ 
+          <div class="item"><img src="GBP images/_MG_0793副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0808副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0828副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0867副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0869副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0870副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0874副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0876副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0879副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_0892副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_6621副本.jpg-1.jpg" alt=""></div>
+          <div class="item"><img src="GBP images/_MG_6627副本.jpg-1.jpg" alt=""></div>
 
-								</ul>
-							</div>
-							<a href="#" class="prev">&lt;</a> <a href="#" class="play"><em>stop</em><span>play</span></a> <a href="#" class="next">&gt;</a>
-						
-						</div>		
-                        
-                        
-                        
-						<div class="pag">
-							<div class="img-pags">
-							  <ul>
-								<li><a href="#"><span><img src="GBP images/_MG_0793副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0808副本.jpg-1.jpg" alt=""width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0828副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0839副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0867副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0869副本.jpg-1.jpg" alt=""  width="70" height="70"/></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0870副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0874副本.jpg-1.jpg" alt=""  width="70" height="70"/></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0876副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0879副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0892副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_6621副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_6627副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-							
-							  </ul>  
-							</div>								
-							<a href="#" class="button button1" data-type="prevPage">&lt;</a>
-							<a href="#" class="button button2" data-type="nextPage">&gt;</a>
-						</div>
-  </div>
+         
+        </div>  
 
        
-       
-       
-       -->	
-       <div id="slide">			  	
-							<!-- slider -->
-							<div class="gallery">
-								<ul class="items">
-									<li><img src="GBP images/_MG_0793副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0808副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0828副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									
-									<li><img src="GBP images/_MG_0867副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0869副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0870副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0874副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0876副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_0879副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_0892副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span> </span></div></li>
-									<li><img src="GBP images/_MG_6621副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-									<li><img src="GBP images/_MG_6627副本.jpg-1.jpg" alt="" width="900" height="500"/><div class="banner"><span></span></div></li>
-
-								</ul>
-							</div>
-							<a href="#" class="prev">&lt;</a> <a href="#" class="play"><em>stop</em><span>play</span></a> <a href="#" class="next">&gt;</a>
-							<!-- slider end -->	
-						</div>		
-						<div class="pag">
-							<div class="img-pags">
-							  <ul>
-								<li><a href="#"><span><img src="GBP images/_MG_0793副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0808副本.jpg-1.jpg" alt=""width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0828副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								
-								<li><a href="#"><span><img src="GBP images/_MG_0867副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0869副本.jpg-1.jpg" alt=""  width="70" height="70"/></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0870副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0874副本.jpg-1.jpg" alt=""  width="70" height="70"/></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0876副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0879副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_0892副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_6621副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-								<li><a href="#"><span><img src="GBP images/_MG_6627副本.jpg-1.jpg" alt="" width="70" height="70" /></span></a></li>
-							
-							  </ul>  
-							</div>								
-							<a href="#" class="button button1" data-type="prevPage">&lt;</a>
-							<a href="#" class="button button2" data-type="nextPage">&gt;</a>
-						</div>
-  </div>
-
-       
-    </div>   
        
        
        
@@ -270,24 +173,28 @@
 <!--=======footer=================================-->
 <footer>
     <div class="container_16">
-        <div class="row">
-            <div class="bord-5"></div>
-            <div class="aligncenter">
-                <ul class="soc_icons">
-                    <li><a href="https://www.facebook.com/pages/Global-Best-Produce-Inc/441951609154181"><span class="soc-1"></span>facebook</a><span>|</span></li>
-                    <li><a href="#"><span class="soc-2"></span>twitter</a><span>|</span></li>
-                    <li><a href="https://plus.google.com/114152591658355215285/about?gl=us&hl=en"><span class="soc-3"></span>google+</a></li>
-                </ul>
+        <div class="">
+            <div class='grid_16 suffix_1'>
+                <div class="bord-5"></div>
+                <div class="aligncenter">
+                    <ul class="soc_icons">
+                        <li><a href="https://www.facebook.com/pages/Global-Best-Produce-Inc/441951609154181"><span class="soc-1"></span>facebook</a><span>|</span></li>
+                        <li><a href="#"><span class="soc-2"></span>twitter</a><span>|</span></li>
+                        <li><a href="https://plus.google.com/114152591658355215285/about?gl=us&hl=en"><span class="soc-3"></span>google+</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     <div class="bord-3">
         <div class="container_16">
-            <div class="row row-1">
-                <a  class="h-underline" href="index.html">
-                    Global Best Produce, Inc.
-                </a>&copy; 2014 <span>|</span> 
-            <a href="index-5.html" class="h-underline">Privacy policy</a></div>
+            <div class="row-1">
+                <div class='grid_16 suffix_1'>
+                    <a  class="h-underline" href="index.html">
+                        Global Best Produce, Inc.
+                    </a>&copy; 2015 <span>|</span> 
+                    <a href="index-5.html" class="h-underline">Privacy policy</a></div>
+                </div>
         </div>
     </div>
 </footer>

@@ -78,8 +78,13 @@ nav {
 	background: #ffffff;
 	padding-top: 20px;
 	padding-bottom: 12px;
+	list-style-type: none;
 }
 .sf-menu > li > ul > li {padding: 0px 28px;}
+
+.sf-menu > li > ul {
+	margin-left: 0px;
+}
 
 .sf-menu > li > ul > li > a {
 	display: block;
@@ -91,6 +96,7 @@ nav {
 	background: url(../images/bord-1.gif) 0 0 repeat-x;
 	padding: 10px 0px;
 }
+
 .sf-menu > li > ul > li:first-child > a { background: none;}
 
 .sf-menu > li > ul > li > a:hover,

@@ -15,6 +15,7 @@ html, body {
 	color: #907e6e;
 	min-width:300px;
 }
+
 body {padding-bottom: 30px;}
 * {	-webkit-text-size-adjust: none;}
 .bg-1 {background: url(../images/top-bg.gif) center top repeat-x;
@@ -84,10 +85,25 @@ h5 {font-size: 14px; line-height: 21px; font-weight: 600; text-transform: upperc
 	right: -11px; 
 	border-right: 1px solid #7b6757;
 }
-.bord-5 {border-top: 8px solid #f4be18;	-moz-box-sizing: border-box;box-sizing: border-box; margin: 0 10px;}
+.bord-5 {border-top: 8px solid #f4be18;	-moz-box-sizing: border-box;box-sizing: border-box; margin: 0 40px 0 0;}
+
+.paragraph {margin-right: 40px;}
+@media only screen and (max-width: 767px){
+	.bord-5 {
+		margin-right: 0;
+	}
+	.paragraph {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 995px) and (min-width: 768px) {
+	.bord-5 {
+		margin-right: 20px;
+	}
+}
 
 /*buttons*/
-
 .btn {
 	display: inline-block;
 	padding-right: 20px;
@@ -252,7 +268,7 @@ h1 { float: left; margin-top: 43px;}
 	.bg-3 h5 {letter-spacing: -1px;}
 
 /************Content***********/
-.content {background: url(../images/bg-8.gif) 0 0 repeat; padding-bottom: 21px;}
+.content {background-color: #efefef; padding-bottom: 21px;}
 
 .box-1 { text-align: center; padding: 68px 0px 60px; position: relative;}
 img + h3 {padding-top: 20px;}

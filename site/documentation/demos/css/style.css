@@ -13,7 +13,7 @@ body {
 	line-height:1.1875em;
 	color:#6f787a;
 	}
-html { min-width:980px;}
+html { width: auto;}
 html, body { height:100%;}
 
 #main {
