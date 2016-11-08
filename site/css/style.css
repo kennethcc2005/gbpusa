@@ -67,12 +67,12 @@ h5 {font-size: 14px; line-height: 21px; font-weight: 600; text-transform: upperc
 .color-3 { color: #a2c427;}
 .color-4 { color: #f3bd18;}
 .color-5 { color: #72594b;}
-.color-6 { color: #ffd555;}
+.color-6 { color: #ff9b58;}
 .color-7 { color: #736963;}
 .color-8 { color: #755c4d;}
 .color-9 { color: #f3bd18;}
 .color-10 { color: #f3bd18;}
-
+.color-11 {color: #968577;}
 .bord-1 { border-bottom: 1px solid #9e8b7d; padding-bottom: 26px; }
 .bord-2 {border-top: 8px solid #ffffff;}
 .bord-3 {border-top: 1px solid #ebe7df;}
@@ -540,3 +540,13 @@ p + h2 { padding-top: 41px;}
 	margin: 0 5%;
 }
 
+.logo_class {
+	width:240px;
+	height: 128px;
+}
+
+#about_us_bg {
+	background-image: url('../images/about_us_bg.jpg'); 
+	background-position: -50px; 
+	height: 500px;
+}
