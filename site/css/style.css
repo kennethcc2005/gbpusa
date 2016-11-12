@@ -456,7 +456,19 @@ p + h2 { padding-top: 41px;}
 
 	#toTop:active, #toTop:focus {outline:none;}
 
+#about_us_paragraph {
+	width: 70%;
+	float: left;
+}
 
+#about_us_bg {
+	background-image: url('../images/about_us_bg.jpg'); 
+	background-position: 600px -100px;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-right: -20px;
+	background-size: 400px;
+}
 
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
@@ -506,6 +518,7 @@ p + h2 { padding-top: 41px;}
 	.block-1 .text-1, .block-1 .c2 {float: none; text-align: center; margin:  10px auto 0px;}
 	.block-1 .c2.c-color-1 + .text-1, .block-1 .c2.c-color-1 { margin: 10px auto 0px;}
 	.soc_icons {margin-left: -5px;}
+	#about_us_bg { display: none; }
 }
 
 @media only screen and (max-width: 479px) {
@@ -545,8 +558,3 @@ p + h2 { padding-top: 41px;}
 	height: 128px;
 }
 
-#about_us_bg {
-	background-image: url('../images/about_us_bg.jpg'); 
-	background-position: -50px; 
-	height: 500px;
-}
