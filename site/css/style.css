@@ -60,7 +60,7 @@ h3 {font-size: 48px; line-height: 1em; font-weight: 300; padding: 51px 0px 30px;
 h4 {font-size: 36px; line-height: 46px; color: #3e3e3e; font-weight: lighter; padding-top: 36px;}
 h5 {font-size: 14px; line-height: 21px; font-weight: 600; text-transform: uppercase; padding-top: 27px; padding-bottom: 8px;}
 
-.text-1 {display: inline-block; font-family: 'Damion', cursive; font-size: 36px; line-height: 1em; margin-top: 74px;}
+.text-1 {display: inline-block; font-family: 'Damion', cursive; font-size: 36px; line-height: 1em;}
 
 .color-1 { color: #ff703b;}
 .color-2 { color: #ffffff;}
@@ -457,20 +457,27 @@ p + h2 { padding-top: 41px;}
 	#toTop:active, #toTop:focus {outline:none;}
 
 #about_us_paragraph {
-	width: 68%;
+	width: 66%;
 	float: left;
 }
 
 #about_us_bg {
 	background-image: url('../images/about_us_bg.jpg'); 
-	background-position: 600px -100px;
+	/*background-position: 450px -200px;*/
+	background-position: 580px -110px;
 	background-repeat: no-repeat;
 	height: 400px;
 	margin-right: -20px;
+	/*background-size: 600px;*/
 	background-size: 400px;
 }
 
-
+.footer_slogan {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+}
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 
 @media only screen and (min-width: 995px) {
