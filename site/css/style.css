@@ -524,7 +524,6 @@ p + h2 { padding-top: 41px;}
 	.block-1 .text-1 { width: 100%;}
 	.block-1 .text-1, .block-1 .c2 {float: none; text-align: center; margin:  10px auto 0px;}
 	.block-1 .c2.c-color-1 + .text-1, .block-1 .c2.c-color-1 { margin: 10px auto 0px;}
-	.soc_icons {margin-left: -5px;}
 	#about_us_bg { display: none; }
 }
 
